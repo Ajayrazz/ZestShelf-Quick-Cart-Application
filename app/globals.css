@@ -6,6 +6,13 @@
     scroll-behavior: smooth;
 }
 
+/* Background linear gradient and You Can Remove it whenenver you want */
+body {
+  background-color: #27ae91;
+background-image: linear-gradient(62deg, #27ae91 0%, #5146a4 100%);
+
+}
+
 @layer base {
     input[type="number"]::-webkit-inner-spin-button,
     input[type="number"]::-webkit-outer-spin-button {
